@@ -4,6 +4,8 @@ header, footer { padding: 1rem; background: #f3f3f3; }
 nav a { margin-right: .75rem; text-decoration: none; }
 main { padding: 1rem; }
 
+/** El color de los botones es azul sin borde y con los bordes redondeados, con un efecto hover cuando pasamos el ratón por encima*/
+
 button {
     background-color: #1976d2;
     color: #fff;
