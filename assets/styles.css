@@ -3,3 +3,22 @@ body { font-family: system-ui, Arial, sans-serif; margin: 0; line-height: 1.5; }
 header, footer { padding: 1rem; background: #f3f3f3; }
 nav a { margin-right: .75rem; text-decoration: none; }
 main { padding: 1rem; }
+
+/** El color de los botones es azul sin borde y con los bordes redondeados, con un efecto hover cuando pasamos el ratón por encima*/
+
+button {
+    background-color: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button:hover,
+button:focus {
+    background-color: #1565c0;
+    outline: none;
+}
