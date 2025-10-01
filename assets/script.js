@@ -1,6 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
   const img = document.getElementById('img-demo');
   const btnSrc = document.getElementById('btn-cambiar-src');
+/**
+ * Reference to the button element used to toggle the title display.
+ * This element is expected to have the ID 'btn-toggle-title' in the DOM.
+ * @type {HTMLButtonElement|null}
+ */
   const btnTitle = document.getElementById('btn-toggle-title');
 
   if (btnSrc && img) {
